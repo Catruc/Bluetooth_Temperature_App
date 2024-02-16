@@ -16,3 +16,11 @@ Flexible Temperature Units: User choice between Celsius and Fahrenheit for tempe
 Android Compatibility: Designed specifically for Android devices, ensuring wide accessibility and usability.
 
 User-friendly Interface: Easy-to-navigate app interface for a seamless user experience.
+
+
+<img width="475" alt="image" src="https://github.com/Catruc/Bluetooth_Temperature_App/assets/122831040/5153d395-a1c8-4352-a2d7-6e9790ff8f0f">
+
+
+<img width="468" alt="image" src="https://github.com/Catruc/Bluetooth_Temperature_App/assets/122831040/a1814b5b-22ea-426e-a580-bab626f92733">
+
+
