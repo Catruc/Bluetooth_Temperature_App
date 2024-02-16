@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#77C165"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMPERATURE APP"
+            android:textSize="24sp"
+            android:textColor="#041001"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="40dp" />
+
+    <Button
+            android:id="@+id/celsiusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ACC6A6"
+            android:text="CELSIUS"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="248dp" app:layout_constraintHorizontal_bias="0.498"/>
+    <Button
+            android:id="@+id/fahrenheitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ACC6A6"
+            android:text="FAHRENHEIT"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="388dp" app:layout_constraintHorizontal_bias="0.498"/>
+    <Button
+            android:id="@+id/connectBluetoothButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ACC6A6"
+            android:text="CONNECT BLUETOOTH"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="524dp"/>
+</android.support.constraint.ConstraintLayout>

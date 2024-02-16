@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+            android:id="@+id/startBluetooth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Start Bluetooth"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="16dp"/>
+
+    <Button
+            android:id="@+id/stopBluetooth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Stop Bluetooth"
+            app:layout_constraintTop_toBottomOf="@+id/startBluetooth"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/findDevices"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Find Devices"
+            app:layout_constraintTop_toBottomOf="@+id/stopBluetooth"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/showPaired"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Show Paired"
+            app:layout_constraintTop_toBottomOf="@+id/findDevices"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"/>
+
+
+    <ListView
+            android:id="@+id/pairedDevicesListView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#E0E0E0"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/showPaired"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp" />
+
+    <TextView
+            android:id="@+id/statusBluetooth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

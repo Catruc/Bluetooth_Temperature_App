@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="#77C165"
+                                             android:orientation="vertical"
+                                             tools:context=".CelsiusActivity">
+
+    <TextView
+            android:id="@+id/celsiusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CELSIUS DEGREES"
+            android:textSize="24sp"
+            android:textColor="#041001"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+    <TextView
+            android:id="@+id/celsiusResultTextView"
+            android:layout_width="317dp"
+            android:layout_height="237dp"
+            android:text=""
+            android:background="#77C165"
+            android:textStyle="bold"
+            android:textSize="85sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/celsiusTextView" android:layout_marginTop="152dp"
+            app:layout_constraintHorizontal_bias="0.495"/>
+    <Button
+            android:id="@+id/buttonBackCelsius"
+            android:text="BACK"
+            android:background="#ACC6A6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="528dp" app:layout_constraintHorizontal_bias="0.108"/>
+
+</android.support.constraint.ConstraintLayout>
